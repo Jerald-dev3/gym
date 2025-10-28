@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{full_name} - {aadhaar_number}",
+ "autoname": "format:{first_name} {last_name} - {aadhaar_number}",
  "creation": "2025-10-28 12:40:16.678835",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -64,7 +64,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-28 12:58:19.957757",
+ "modified": "2025-10-28 15:43:21.836727",
  "modified_by": "Administrator",
  "module": "Gym",
  "name": "Member",
