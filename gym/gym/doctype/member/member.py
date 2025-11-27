@@ -8,6 +8,7 @@ from frappe.model.document import Document
 class Member(Document):
 	def before_save(self):
 		frappe.throw("Working")
+		print("hello world")
 		if self.first_name and self.last_name:
 			self.full_name = self.first_name +" "+ self.last_name
 		else:
